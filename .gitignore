@@ -58,6 +58,9 @@ typings/
 .env
 
 # next.js build output
+
+.vscode
+
 .next
 
 ./vscode/
