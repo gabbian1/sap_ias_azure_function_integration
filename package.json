@@ -1,0 +1,20 @@
+{
+  "name": "SAP IAS Connector",
+  "version": "1.0.0",
+  "description": "App for integration with SAP IAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sap",
+    "ias",
+    "js",
+    "frisbee"
+  ],
+  "author": "Raphael Pacheco",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "frisbee": "^2.0.10"
+  }
+}
