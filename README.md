@@ -22,7 +22,7 @@ It's only does a request to SAP IAS APIs, very simple :)
 * A basic know-how about Azure;
 
 ### Instalation
-First to all, clone or download this project on your machine, navigate to the project directory and run *__npm install__*.
+First to all, clone or download this project on your machine, open and navigate to the project directory in your terminal and run *__npm install__*.
 
 After the project configuration, go to Visual Studio Code and open the project directoy and install the Azure functions plugin.
 
