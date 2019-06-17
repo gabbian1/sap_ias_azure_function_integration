@@ -32,7 +32,7 @@ You done the installation :)
 
 In this phase you must have an Azure account with developer or administrator rights.
 
-Go to the Azure portal and search for "Function Apps" and navigate to this.
+Go to the Azure portal and search for "Function Apps" and navigate to this. Follow this document: https://github.com/Microsoft/vscode-azurefunctions/blob/master/README.md
 
-**UNDER CONSTRUCTION**
+
 
