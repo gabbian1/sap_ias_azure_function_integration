@@ -10,8 +10,6 @@
 
 ## Introduction <a name="introduction"></a>
 
-This a opensource project, all help to maintain are come :)
-
 This project was created for attend a necessity of integrate the Azure AD with SAP Identity Authentication Service, without purchase the SAP Identity Provider service.
 
 ## How to install <a name="howto-install"></a>
@@ -87,19 +85,23 @@ Linux
     
 ### Installing the Azure functions plugin on Visual Studio Code
 
+The next step is install the Azure Functions plugin by the Visual Studio Code Market Place. Go to Extesions button and search for Azure Functions, as bellow:
 
+![VSCodeMarketPlace](resources/vscode_plugins_marketplace.png)
 
-First to all, clone or download this project on your machine, open and navigate to the project directory in your terminal and run *__npm install__*.
+### Get the code
 
-After the project configuration, go to Visual Studio Code and open the project directoy and install the Azure functions plugin.
-
-You done the installation :)
+Clone or download this project on your machine.
 
 ## How to use <a name="howto-use"></a>
 
-In this phase you must have an Azure account with developer or administrator rights.
+Access the Azure Functions plugin on the Visual Studio Code (The ![VSCodeAzurePlugin](resources/AzureIcon.png) icon) next click in the ![VSCodeAzureProject](resources/AzureProject.png) icon and finally in the button "Open existing project", select the path where you clone or download this source.
 
-Go to the Azure portal and search for "Function Apps" and navigate to this. Follow this document: https://github.com/Microsoft/vscode-azurefunctions/blob/master/README.md
+Navigate to the API directory and open the "config.json" file, as bellow:
 
+![VSCodeAzureProjectConf](resources/AzureProjectConf.png)
 
+Change the parameters "baseURI" and "Authorization" with:
 
+* baseURI: Put the SAP IAS URI here
+* Authorization: Put the crypted authorization key from SAP IAS
