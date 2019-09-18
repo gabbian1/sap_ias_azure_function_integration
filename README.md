@@ -89,19 +89,14 @@ The next step is install the Azure Functions plugin by the Visual Studio Code Ma
 
 ![VSCodeMarketPlace](resources/vscode_plugins_marketplace.png)
 
-### Get the code
+### Get the code and install the dependencies
 
-Clone or download this project on your machine.
+Clone or download this project on your machine, next, run npm install to download the dependencies:
+
+![VSCodeTerminal1](resources/VSCodeTerminal1.png)
+
+![VSCodeTerminal2](resources/VSCodeTerminal2.png)
 
 ## How to use <a name="howto-use"></a>
 
 Access the Azure Functions plugin on the Visual Studio Code (The ![VSCodeAzurePlugin](resources/AzureIcon.png) icon) next click in the ![VSCodeAzureProject](resources/AzureProject.png) icon and finally in the button "Open existing project", select the path where you clone or download this source.
-
-Navigate to the API directory and open the "config.json" file, as bellow:
-
-![VSCodeAzureProjectConf](resources/AzureProjectConf.png)
-
-Change the parameters "baseURI" and "Authorization" with:
-
-* baseURI: Put the SAP IAS URI here
-* Authorization: Put the crypted authorization key from SAP IAS
