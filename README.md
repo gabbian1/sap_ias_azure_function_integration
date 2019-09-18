@@ -100,3 +100,5 @@ Clone or download this project on your machine, next, run npm install to downloa
 ## How to use <a name="howto-use"></a>
 
 Access the Azure Functions plugin on the Visual Studio Code (The ![VSCodeAzurePlugin](resources/AzureIcon.png) icon) next click in the ![VSCodeAzureProject](resources/AzureProject.png) icon and finally in the button "Open existing project", select the path where you clone or download this source.
+
+For test and/or compile to Azure you must have a account as Developer or Administrator.
