@@ -1,6 +1,0 @@
-{
-  "baseURI": "<your_ias_uri>",
-  "Authorization": "PHlvdXJfdXNlcm5hbWU+Og==",
-  "PostContent": "application/x-www-form-urlencoded",
-  "GetContent": "application/vnd.sap-id-service.sp-user-id+xml"
-}
