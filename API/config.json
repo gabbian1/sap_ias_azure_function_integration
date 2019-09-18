@@ -1,6 +1,0 @@
-{
-    "baseURI": "",
-    "Authorization": "",
-    "PostContent": "application/x-www-form-urlencoded",
-    "GetContent": "application/vnd.sap-id-service.sp-user-id+xml"
-}

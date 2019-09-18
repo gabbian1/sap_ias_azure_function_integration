@@ -1,5 +1,5 @@
 {
-  "name": "SAP IAS Connector",
+  "name": "SAP_IAS_Connector",
   "version": "1.0.0",
   "description": "App for integration with SAP IAS",
   "main": "index.js",
@@ -15,6 +15,7 @@
   "author": "Raphael Pacheco",
   "license": "Apache-2.0",
   "dependencies": {
-    "frisbee": "^2.0.10"
+    "frisbee": "^2.0.10",
+    "prompt": "^1.0.0"
   }
 }

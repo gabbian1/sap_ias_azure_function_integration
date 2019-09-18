@@ -1,11 +1,13 @@
 const Frisbee = require('frisbee');
 const Config = require('./config.json');
 
-module.exports = async function (context, req) {
-    let content = ''
-    let response
+console.log(Config.PostContent);
 
-    if ( req.method == 'POST' ){
+module.exports = async function (context, req) {
+    let content = undefined;
+    let response = undefined;
+
+    if ( req.method === 'POST' ){
         content = Config.PostContent;
     }else{
         content = Config.GetContent;
@@ -19,7 +21,7 @@ module.exports = async function (context, req) {
         }
     });
     
-    if ( req.method == 'POST' ){
+    if ( req.method === 'POST' ){
         response = await api.post('/service/users?', { body: req.body })
     }else{
         const query = "name_id=" + req.query.email
